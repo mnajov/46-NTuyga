@@ -25,6 +25,7 @@ class CarController {
 
   async creatCar(req, res, next) {
     try {
+      req.body.owner= req.currentUser.id
       const { model, owner } = req.body;
       const { image } = req.files;
 
@@ -67,6 +68,40 @@ class CarController {
     } catch (error) {
       next(error);
     }
+  }
+
+  async deletCar (req,res, next){
+
+    const {id}= req.query
+   
+    
+
+    const {data:oldData}= await this.#carService.getAll()
+
+    if(!id){
+      throw new CustomError(401, "idni ciritmadingiz")
+    }
+    
+
+    const idBormi = oldData.findIndex((el)=> el.id ==id)
+    
+    if (idBormi== -1){
+      throw new CustomError(401, "bunday idli oshirliadigan elemen yoq")
+    }
+
+    const newData = oldData.splice(idBormi, 1)
+
+    await this.#carService.write(oldData)
+    res.redirect("/car");
+
+
+
+
+
+
+
+
+
   }
 }
 

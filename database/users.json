@@ -26,5 +26,19 @@
     "fullName": "Aliyar",
     "role": "client",
     "id": "38ddc893-7787-42d3-b9e0-b4350c0d95f3"
+  },
+  {
+    "login": "allayar",
+    "password": "$2b$10$qSXyVV07wtvpGs6oYl5zr.PpeZAJI0Teh2V205oTb9cRdaWaNXzKG",
+    "fullName": "allayr",
+    "role": "admin",
+    "id": "ec223405-a0db-4a73-a019-b088e36d1bd4"
+  },
+  {
+    "login": "admin",
+    "password": "$2b$10$Q2mpvYGjD/7xnxDzYDMROeJLfXqg3HTK7Jge/d.3ItxXCdaz5YVeK",
+    "fullName": "admin",
+    "role": "admin",
+    "id": "bf73ea31-36ee-483b-8558-55d2845c3fa4"
   }
 ]

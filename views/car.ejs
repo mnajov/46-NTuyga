@@ -1,13 +1,75 @@
+
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Car</title>
-    <link rel="stylesheet" href="/assets/style.css" />
-  </head>
-  <body>
-    <a href="/home">Home</a>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foydalanuvchilar jadvali</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 800px;
+            width: 100%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        th {
+            background-color: #4a5568;
+            color: #ffffff;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+        tr:hover {
+            background-color: #e8f4ff;
+        }
+        .user-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .user-id {
+            font-weight: bold;
+            color: #4a5568;
+        }
+        .user-name {
+            color: #2b6cb0;
+        }
+        .user-email {
+            color: #4a5568;
+        }
+    </style>
+</head>
+<body>
+
+   
+
+    <div class="container">
+      <a href="/home">Home</a>
     <a href="/register">Register</a>
     <a href="/login">Login</a>
     <a href="/car">Car</a>
@@ -22,19 +84,60 @@
     >
       <h2>Car create</h2>
       <input type="text" required placeholder="Model" name="model" />
-      <input type="text" required placeholder="Owner ID" name="owner" />
+      
       <input type="file" required name="image" />
       <button type="submit">Submit</button>
-    </form>
+    </form><br>
+    <H1>delete car </H1><br>
+    <form action="/api/car/delet" method="GET">
+      <label for="username">ID- kiritin</label>
+      <input type="text"  name="id" placeholder="id">
+      <button type="submit">Yuborish</button>
+  </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>model</th>
+                    <th>owner</th>
+                    <th>Rasm</th>
+                    <th>Car Id</th>
+                </tr>
+            </thead>
+            <tbody>
 
-    <ol>
-      <% data.forEach(function(car) { %>
-      <li>
-        <img src="<%= car.image %>" />
-        <h3><%= car.model %></h3>
-        <p><%= car.owner %></p>
-      </li>
-      <% }) %>
-    </ol>
-  </body>
+              <% data.forEach(function(car) { %>
+
+                <tr>
+                  
+
+                  <td class="user-id">1</td>
+                  <td class="user-name"><%= car.model %></td>
+                  <td class="user-email"><%= car.owner %></td>
+                  <td><img src="<%= car.image %>" alt="Alisher" class="user-image"></td>
+                  <td><%= car.id%></td>
+              </tr>
+
+
+                
+                <% }) %>
+
+                
+                
+            </tbody>
+        </table>
+    </div>
+</body>
 </html>
+
+
+
+
+
+
+
+
+   
+
+
+  

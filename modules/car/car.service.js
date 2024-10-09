@@ -17,6 +17,12 @@ class CarService {
     return resData;
   }
 
+  async write(data){
+    this.#repository.write(data)
+
+
+  }
+
   async create(dto) {
     const generatedId = generationId();
 
@@ -33,6 +39,8 @@ class CarService {
     return resData;
   }
 }
+
+
 
 const carDbUrl = path.join(__dirname, "../../database", "cars.json");
 

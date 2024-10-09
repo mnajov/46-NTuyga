@@ -7,21 +7,51 @@
     "video": "https://www.youtube.com/watch?v=6HKOvDXnQ9o&list=RD6HKOvDXnQ9o&start_radio=1&ab_channel=JAVA"
   },
   {
-    "model": "ferrari",
+    "model": "lambo",
     "owner": "b49e43c8-e103-4798-961f-d5d8e332c7fb",
-    "image": "http://localhost:7777/uploads/5a27b0ad-b5b5-4d53-ab7e-506410d4d6b5.jpeg",
-    "id": "d1693431-5170-4615-99cb-6ffbbb894c80"
+    "image": "uploads\\2db4c0dc-a461-4c7c-bf6e-9c0e9a7887fc.jpeg",
+    "id": "13e03f30-02fb-446d-b5d6-483ba05db8a7"
   },
   {
-    "model": "ferrari",
+    "model": "car1",
     "owner": "b49e43c8-e103-4798-961f-d5d8e332c7fb",
-    "image": "uploads\\16b8f8ba-7032-4d43-b1ce-b914839bb9a9.jpeg",
-    "id": "48b9e2e2-b2e0-4dba-881b-985d137fafab"
+    "image": "uploads\\9e69791f-acda-4f7b-8d11-945d914266a7.jpeg",
+    "id": "8165f0ec-d92b-4fc2-a8b5-b83a7b6ae63f"
   },
   {
-    "model": "BMW",
+    "model": "car2",
     "owner": "b49e43c8-e103-4798-961f-d5d8e332c7fb",
-    "image": "uploads\\bb863038-f57e-4dc0-8c97-aeafee113bea.jpeg",
-    "id": "283422ed-ee47-409e-a000-5db31723ff6e"
+    "image": "uploads\\0d4fbbdb-df68-4d62-8132-86a8563aab1d.jpeg",
+    "id": "2cd8f6a7-c5c0-4c21-bd6c-13845e5a05a5"
+  },
+  {
+    "model": "car3",
+    "owner": "b49e43c8-e103-4798-961f-d5d8e332c7fb",
+    "image": "uploads\\707e33e1-40fc-4a72-8f6c-f8025d144f10.jpeg",
+    "id": "c76c376d-1436-4162-b03c-3decd83f44e4"
+  },
+  {
+    "model": "car5",
+    "owner": "b49e43c8-e103-4798-961f-d5d8e332c7fb",
+    "image": "uploads\\4e6895f2-a02b-416d-8b64-3b313ae5d904.jpeg",
+    "id": "6ec15e50-c94b-4db0-bacd-7f1bb6688a54"
+  },
+  {
+    "model": "bmw",
+    "owner": "b49e43c8-e103-4798-961f-d5d8e332c7fb",
+    "image": "uploads\\0dc318d7-a519-47d7-b874-ebc6b975fff6.jpeg",
+    "id": "63d8ef1e-312d-4a3e-978e-4d663ff172c8"
+  },
+  {
+    "model": "lambo",
+    "owner": "ec223405-a0db-4a73-a019-b088e36d1bd4",
+    "image": "uploads\\198804fe-b94e-40e3-8e5e-41478f1b1477.jpeg",
+    "id": "163b42e4-0001-4f86-9a3c-f771e0e36bf1"
+  },
+  {
+    "model": "dodge",
+    "owner": "ec223405-a0db-4a73-a019-b088e36d1bd4",
+    "image": "uploads\\cfb5d1dd-2845-4669-a677-ec999b5875ca.jpeg",
+    "id": "dc9afd33-00bd-4bc7-9c4f-d27c819e1f38"
   }
 ]

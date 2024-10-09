@@ -8,9 +8,17 @@ class CarController {
 
   async render(req, res, next) {
     try {
+
+      const user = req.currentUser
       const cars = await this.#carService.getAll();
 
-      res.render("car.ejs", cars);
+      const data= cars.data.filter((el)=>{
+        if(el.owner==user.id){
+          return el
+        }
+      })
+
+      res.render("car.ejs", {data});
     } catch (error) {
       next(error);
     }
