@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
+  <body>
+    <a href="/home">Home</a>
+    <a href="/register">Register</a>
+    <a href="/login">Login</a>
+    <a href="/car">Car</a>
+
+    <H1>Car page</H1>
+
+    <form
+      action="/api/car"
+      method="post"
+      enctype="multipart/form-data"
+      class="car-create-form"
+    >
+      <h2>Car create</h2>
+      <input type="text" required placeholder="Model" name="model" />
+      <input type="text" required placeholder="Owner ID" name="owner" />
+      <input type="file" required name="image" />
+      <button type="submit">Submit</button>
+    </form>
+
+    <ol>
+      <% data.forEach(function(car) { %>
+      <li>
+        <img src="<%= car.image %>" />
+        <h3><%= car.model %></h3>
+        <p><%= car.owner %></p>
+      </li>
+      <% }) %>
+    </ol>
+  </body>
+</html>

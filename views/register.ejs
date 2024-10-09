@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
+  <body>
+    <a href="/home">Home</a>
+    <a href="/register">Register</a>
+    <a href="/login">Login</a>
+    <a href="/car">Car</a>
+
+    <h1>Register</h1>
+
+    <form action="/api/auth/register" method="post">
+      <input type="text" placeholder="login" required name="login" />
+      <input type="text" placeholder="password" required name="password" />
+      <input type="text" placeholder="fullName" required name="fullName" />
+      <input type="text" placeholder="role" required name="role" />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

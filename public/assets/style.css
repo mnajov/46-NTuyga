@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+img {
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+.car-create-form {
+  margin-bottom: 40px;
+}
+
+.login-error {
+  color: red;
+}

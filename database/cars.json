@@ -1,0 +1,27 @@
+[
+  {
+    "id": "cdfbgfswdec",
+    "model": "audi",
+    "owner": "cdfbgfc",
+    "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2024/08/cars-4-header.jpg",
+    "video": "https://www.youtube.com/watch?v=6HKOvDXnQ9o&list=RD6HKOvDXnQ9o&start_radio=1&ab_channel=JAVA"
+  },
+  {
+    "model": "ferrari",
+    "owner": "b49e43c8-e103-4798-961f-d5d8e332c7fb",
+    "image": "http://localhost:7777/uploads/5a27b0ad-b5b5-4d53-ab7e-506410d4d6b5.jpeg",
+    "id": "d1693431-5170-4615-99cb-6ffbbb894c80"
+  },
+  {
+    "model": "ferrari",
+    "owner": "b49e43c8-e103-4798-961f-d5d8e332c7fb",
+    "image": "uploads\\16b8f8ba-7032-4d43-b1ce-b914839bb9a9.jpeg",
+    "id": "48b9e2e2-b2e0-4dba-881b-985d137fafab"
+  },
+  {
+    "model": "BMW",
+    "owner": "b49e43c8-e103-4798-961f-d5d8e332c7fb",
+    "image": "uploads\\bb863038-f57e-4dc0-8c97-aeafee113bea.jpeg",
+    "id": "283422ed-ee47-409e-a000-5db31723ff6e"
+  }
+]

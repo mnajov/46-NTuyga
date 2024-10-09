@@ -1,0 +1,30 @@
+[
+  {
+    "id": "cdfbgfc",
+    "login": "test",
+    "password": "hbdghn gsfgabtr",
+    "fullName": "Kamoliddin Jamoliddinov",
+    "role": "admin"
+  },
+  {
+    "login": "ilhom",
+    "password": "$2b$10$p76KhOKPIkoUtMQtMbw5yemkX8QNytGAG5eSFPLXOCev5LvTbruR6",
+    "fullName": "Ilhom",
+    "role": "admin",
+    "id": "b49e43c8-e103-4798-961f-d5d8e332c7fb"
+  },
+  {
+    "login": "abror",
+    "password": "$2b$10$2zIpRE/uGezVbeMqTGNL5OABNE2jQowdwXTAoD6Lr1/d/JwuK3RMG",
+    "fullName": "Abror",
+    "role": "client",
+    "id": "7454a1f0-461f-4a1a-94ea-df1db7258cf7"
+  },
+  {
+    "login": "aliyar",
+    "password": "$2b$10$2FbJ5W8uYl2.PMHtywpBQehizbQKRwVeGZAjtygWaomYzzPmiZaSy",
+    "fullName": "Aliyar",
+    "role": "client",
+    "id": "38ddc893-7787-42d3-b9e0-b4350c0d95f3"
+  }
+]
